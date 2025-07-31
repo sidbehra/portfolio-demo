@@ -121,14 +121,14 @@ export default function App() {
         <GlobalStyle />
 
         <Nav>
-          <Logo>Siddharth</Logo>
+          <Logo>Siddharth Behra</Logo>
           <Menu>
             {['Home','About','Projects','Contact'].map(i => <li key={i}>{i}</li>)}
           </Menu>
         </Nav>
 
         <HeroSection>
-          <Title>Hi, I’m Siddharth</Title>
+          <Title>Hi, I’m Siddharth Behra</Title>
           <Subtitle>Front-end wizard crafting sleek interfaces and delightful UX.</Subtitle>
           <CTA onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}>
             View My Work
